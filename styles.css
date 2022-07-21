@@ -3,13 +3,24 @@
 }
 
  ul#navul {
-	list-style: none;
+	height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
 }
 
 .navbar{
-    float: left;
-    border-right: 3px solid grey;
     position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    
+    
 }
 
 h2.title{
@@ -60,14 +71,9 @@ code{
     color: blue;
 }
 
-@media(max-width:1080px){
-    width::after{
-        width: 50%;
-    }
-}
-
-@media(max-height:1920px){
-    height::after{
-        height: 80%;
+@media only screen and (max-width: 815px){
+    #navbar ul {
+        border: 1px solid;
+        height: 207px;
     }
 }
