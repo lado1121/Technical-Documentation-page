@@ -62,12 +62,12 @@ code{
 
 @media(max-width:1080px){
     width::after{
-        width: auto;
+        width: 50%;
     }
 }
 
 @media(max-height:1920px){
     height::after{
-        height: auto;
+        height: 80%;
     }
 }
